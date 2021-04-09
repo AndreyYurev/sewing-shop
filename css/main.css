@@ -69,7 +69,7 @@ body {
   white-space: nowrap;
   font-weight: 300;
   font-size: 20px;
-  line-height: 23px;
+  line-height: 1.15;
   color: #64534d;
   margin-right: 48px;
   transition: 0.2s;
@@ -88,7 +88,7 @@ body {
   white-space: nowrap;
   font-weight: 500;
   font-size: 20px;
-  line-height: 23px;
+  line-height: 1.15;
   color: #64534d;
   margin-right: calc(312 / 1024 * 100%);
   transition: 0.2s;
@@ -119,14 +119,14 @@ body {
 .header__title {
   font-weight: bold;
   font-size: 54px;
-  line-height: 71px;
+  line-height: 1.31;
   color: #64534d;
   margin-bottom: 10px;
 }
 .header__description {
   font-weight: 300;
   font-size: 24px;
-  line-height: 121.7%;
+  line-height: 1.21;
   color: #64534d;
   margin-bottom: 75px;
 }
@@ -152,7 +152,7 @@ body {
 .header__button span {
   font-weight: bold;
   font-size: 26px;
-  line-height: 118.2%;
+  line-height: 1.18;
   text-transform: uppercase;
   color: #64534d;
 }
@@ -276,6 +276,15 @@ body {
 
   .header__body {
     margin-top: 50px;
+  }
+}
+@media (max-width: 990px) {
+  .header__title {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 1.31;
+    color: #64534d;
+    margin-bottom: 10px;
   }
 }
 @media (max-width: 920px) {
@@ -468,14 +477,6 @@ body {
 
   .header__content {
     min-width: 0px;
-  }
-
-  .header__title {
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 1.31;
-    color: #64534d;
-    margin-bottom: 10px;
   }
 }
 @media (max-width: 319px) {
